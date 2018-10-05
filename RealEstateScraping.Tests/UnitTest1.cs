@@ -21,5 +21,15 @@ namespace RealEstateScraping.Tests
             Debugger.Break();
 
         }
+
+        [Fact(DisplayName = "Search Google for Avatars")]
+        public void SearchGoogle()
+        {
+            SearchGoogleForAvatars search = new SearchGoogleForAvatars();
+
+            search.SearchAvatar();
+
+            Debugger.Break();
+        }
     }
 }
